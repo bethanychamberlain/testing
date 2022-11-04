@@ -1,8 +1,7 @@
 ---
 layout: page
-title: people
+title: People
 permalink: /people/
-# description: Human-Centered Data Science @ IT University of Copenhagen.
 nav: true
 order: 15
 
