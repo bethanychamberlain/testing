@@ -1,23 +1,8 @@
 <div class="People">
-  {% assign people = site.people | where: "group", "Faculty" %}
-  {% if people.size != 0 %}
-  <h2>Faculty</h2>
-    <div class="container">
-      {% for person in people limit: site.people_limit %}
-       
-          <div class="row">
-          {% include person.html %}
-          </div>
-      {% endfor %}
-    </div>
 
-  {% else %}
-    <p>No faculty so far...</p>
-  {% endif %}
-
-  {% assign people = site.people | where: "group", "PhD"  %}
+  {% assign people = site.people %}
   {% if people.size != 0 %}
-  <h2>PhD Students</h2>
+
     <div class="container">
       {% for person in people limit: site.people_limit %}
         {% assign remainder = forloop.index | modulo: 4 %}
