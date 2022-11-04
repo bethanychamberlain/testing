@@ -1,7 +1,7 @@
 ---
 layout: page
-title: mmc
-description: making metadata count
+title: MMC
+description: Making Metadata Count
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
