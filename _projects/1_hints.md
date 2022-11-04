@@ -1,7 +1,7 @@
 ---
 layout: page
-title: hints
-description: from black box to intelligible machine learning
+title: HINTS
+description: From black box to intelligible machine learning for the accurate diagnosis of medical images.
 img: assets/img/12.jpg
 importance: 1
 category: work
