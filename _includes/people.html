@@ -1,5 +1,5 @@
 <div class="People">
-  {% assign people = site.people | where: "group", "Faculty" | sort: "started" %}
+  {% assign people = site.people | where: "group", "Faculty" %}
   {% if people.size != 0 %}
   <h2>Faculty</h2>
     <div class="container">
@@ -24,97 +24,9 @@
     <p>No faculty so far...</p>
   {% endif %}
 
-  {% assign people = site.people | where: "group", "PhD" | sort: "started" %}
+  {% assign people = site.people | where: "group", "PhD"  %}
   {% if people.size != 0 %}
   <h2>PhD Students</h2>
-    <div class="container">
-      {% for person in people limit: site.people_limit %}
-        {% assign remainder = forloop.index | modulo: 4 %}
-        {% if forloop.first == true %}
-          <div class="row">
-        {% elsif remainder == 4 %}
-          </div>
-          <div class="row">
-        {% endif %}
-
-        {% include person.html %}
-
-        {% if forloop.last %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  {% endif %}
-
-  {% assign people = site.people | where: "group", "MSc" | sort: "started" %}
-  {% if people.size != 0 %}
-  <h2>MSc Students</h2>
-    <div class="container">
-      {% for person in people limit: site.people_limit %}
-        {% assign remainder = forloop.index | modulo: 4 %}
-        {% if forloop.first == true %}
-          <div class="row">
-        {% elsif remainder == 4 %}
-          </div>
-          <div class="row">
-        {% endif %}
-
-        {% include person.html %}
-
-        {% if forloop.last %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  {% endif %}
-
-  {% assign people = site.people | where: "group", "RA" | sort: "started" %}
-  {% if people.size != 0 %}
-  <h2>Research Assistants</h2>
-    <div class="container">
-      {% for person in people limit: site.people_limit %}
-        {% assign remainder = forloop.index | modulo: 4 %}
-        {% if forloop.first == true %}
-          <div class="row">
-        {% elsif remainder == 4 %}
-          </div>
-          <div class="row">
-        {% endif %}
-
-        {% include person.html %}
-
-        {% if forloop.last %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  {% endif %}
-
-  {% assign people = site.people | where: "group", "BSc" | sort: "started" %}
-  {% if people.size != 0 %}
-  <h2>BSc Students</h2>
-    <div class="container">
-      {% for person in people limit: site.people_limit %}
-        {% assign remainder = forloop.index | modulo: 4 %}
-        {% if forloop.first == true %}
-          <div class="row">
-        {% elsif remainder == 4 %}
-          </div>
-          <div class="row">
-        {% endif %}
-
-        {% include person.html %}
-
-        {% if forloop.last %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  {% endif %}
-
-  {% assign people = site.people | where: "status", "Alumni" | sort: "left" %}
-  {% if people.size != 0 %}
-  <h2>Alumni</h2>
     <div class="container">
       {% for person in people limit: site.people_limit %}
         {% assign remainder = forloop.index | modulo: 4 %}
