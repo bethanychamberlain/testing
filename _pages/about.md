@@ -18,10 +18,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+# About
 
-PURRLab research interests lie within the broad area of trustworthy machine learning and its applications to medical imaging with a focus on datasets.  We are particularly interested in understanding the similarity and diversity of datasets, methods for learning with limited labeled data such a transfer learning, and meta-research on machine learning in medical imaging.
+PURRLab research interests lie within the broad area of trustworthy machine learning and its applications to medical imaging with a focus on datasets.  We are particularly interested in understanding the similarity and diversity of datasets, methods for learning with limited labeled data such as transfer learning, and meta-research on machine learning in medical imaging.
 
-The best way to get a sense of what’s currently going on in the lab is to check out our [projects](https://purrlab22.github.io/projects/) page.
+The best way to get a sense of what’s currently going on in the lab is to read about our [projects](https://purrlab22.github.io/projects/) and people.
 
 PURRLab is a part of [DASYA](https://dasya.itu.dk/) research group in the department of Computer Science at the IT University of Copenhagen. and is led by Veronika Cheplygina.
 
