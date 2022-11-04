@@ -2,7 +2,7 @@
 layout: page
 title: Bethany Chamberlain
 description: Bethany's bio.
-img: purrlab22/purrlab22.github.io/assets/img/profile-photos/Bethany.png
+img: assets/img/profile-photos/Bethany.png
 group: PhD
 started: 2022-01-03
 name: Bethany Chamberlain
