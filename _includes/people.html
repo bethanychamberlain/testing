@@ -4,19 +4,10 @@
   <h2>Faculty</h2>
     <div class="container">
       {% for person in people limit: site.people_limit %}
-        {% assign remainder = forloop.index | modulo: 4 %}
-        {% if forloop.first == true %}
+       
           <div class="row">
-        {% elsif remainder == 4 %}
+          {% include person.html %}
           </div>
-          <div class="row">
-        {% endif %}
-
-        {% include person.html %}
-
-        {% if forloop.last %}
-          </div>
-        {% endif %}
       {% endfor %}
     </div>
 
