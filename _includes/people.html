@@ -1,6 +1,6 @@
 <div class="People">
 
-  {% assign people = site.people %}
+  {% assign people = site.people | sort: "started" %}
   {% if people.size != 0 %}
 
     <div class="container">
