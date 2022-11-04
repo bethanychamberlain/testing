@@ -143,7 +143,7 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  People:
+  people:
     output: true
     permalink: /people/:path/
 
