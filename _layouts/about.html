@@ -44,6 +44,9 @@ layout: default
                 <img src="/assets/img/team.png" style="width:100%">
           </div>
                 
+          {% if page.people %}
+              {% include people.html %}
+          {% endif %}    
                 
           {% if page.news -%}
           <!-- News -->
