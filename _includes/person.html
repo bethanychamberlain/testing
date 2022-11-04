@@ -5,19 +5,8 @@
   {% else %}
   <a href="{{ person.url | relative_url }}">
   {% endif %}
-    <!-- <div class="card hoverable"> -->
+
     <div class="">
-      <div style="padding: 5%">
-        {% if person.img %}
-          {% responsive_image_block %}
-            class: "img-fluid rounded-circle"
-            path: {{ person.img }}
-            alt: "person thumbnail"
-          {% endresponsive_image_block %}
-        {% endif %}
-      </div>
-      <!-- <div class="card-body"> -->
-      <div class="">
         <p>
           <strong>{{ person.name }}</strong><br>
           <em>{{ person.position }}</em><br>
