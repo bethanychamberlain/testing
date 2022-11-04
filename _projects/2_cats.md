@@ -1,7 +1,7 @@
 ---
 layout: page
-title: cats
-description: choosing a transfer source for medical image classification
+title: CATS
+description: Choosing A Transfer Source for Medical Image Classification
 img: assets/img/3.jpg
 importance: 2
 category: work
