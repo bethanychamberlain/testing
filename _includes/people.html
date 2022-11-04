@@ -1,6 +1,6 @@
 <div class="People">
-
-  {% assign people = site.people | sort: "started" %}
+<h2>Faculty</h2>
+  {% assign people = site.people | where: "group", "Faculty" %}
   {% if people.size != 0 %}
 
     <div class="container">
@@ -22,29 +22,25 @@
     </div>
   {% endif %}
 
+<h2>PhD Researchers</h2>
+  {% assign people = site.people | where: "group", "PhD" %}
+  {% if people.size != 0 %}
 
-<!-- <div class="table-responsive">
-<div class="People">
-  <h1>Faculty</h1>
-  {% if site.people  %}
-  <table class="table table-sm table-borderless">
-  {% assign people = site.people | reverse %}
-  {% for item in people limit: site.people_limit %}
-    <tr>
-      <th scope="row">{{ item.name }}</th>
-      <td>
-        {% if item.inline %}
-          {{ item.title | remove: '<p>' | remove: '</p>' | emojify }}
-        {% else %}
-          <a class="people-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    <div class="container">
+      {% for person in people limit: site.people_limit %}
+        {% assign remainder = forloop.index | modulo: 4 %}
+        {% if forloop.first == true %}
+          <div class="row">
+        {% elsif remainder == 4 %}
+          </div>
+          <div class="row">
         {% endif %}
-      </td>
-    </tr>
-  {% endfor %}
-  </table>
-</div>
-{% else %}
-  <p>No people so far...</p>
-{% endif %}
-</div>
--->
+
+        {% include person.html %}
+
+        {% if forloop.last %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
