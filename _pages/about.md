@@ -27,7 +27,7 @@ PURRLab is a part of the Department of Computer Science at the IT University of 
 
 PURRLab research is being supported by Novo Nordisk Fonden and Danmarks Frie Forskningsfonds.
 
-#### **Lab Culture**
+###### **Lab Culture**
 
 
 
