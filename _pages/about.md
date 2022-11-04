@@ -27,7 +27,7 @@ The best way to get a sense of what’s currently going on in the lab is to read
 PURRLab is a part of [DASYA](https://dasya.itu.dk/) research group in the department of Computer Science at the IT University of Copenhagen. and is led by Veronika Cheplygina.
 
 <!--- CHECK/UPDATE LINKS -->
-PURRLab research is being supported by the Dutch Research Council ([HINTS](https://purrlab22.github.io/projects/1_hints/)); Novo Nordisk Foundation ([CATS](https://purrlab22.github.io/projects/2_cats/)); and the Independent Research Council of Denmark ([MMC]([PROJECT LINK](https://purrlab22.github.io/projects/3_mmc/))).
+PURRLab research is being supported by the Dutch Research Council  Novo Nordisk Foundation  and the Independent Research Council of Denmark
 
 
 <div class="news">            
