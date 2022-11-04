@@ -4,7 +4,7 @@ title: Veronika Cheplygina
 description: Veronika's bio
 img: assets/img/profile-photos/cat.jpg
 group: Faculty
-started: 2021-08-01
+started: 2017-01-01
 name: Veronika Cheplygina
 status: Current
 position: Associate Professor
