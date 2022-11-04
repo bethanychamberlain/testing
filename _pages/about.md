@@ -19,6 +19,18 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
+PURRLab research interests lie within the broad area of trustworthy machine learning and its applications to medical imaging with a focus on datasets.  We are particularly interested in ……
+
+The best way to get a sense of what’s currently going on in the lab is to check out our projects:
+
+PURRLab is a part of the Department of Computer Science at the IT University of Copenhagen and is led by Veronika Cheplygina.
+
+PURRLab research is being supported by 
+
+### **Lab Culture**
+
+
+
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
