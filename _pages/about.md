@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 PURRLab research interests lie within the broad area of trustworthy machine learning and its applications to medical imaging with a focus on datasets.  We are particularly interested in ……
 
-The best way to get a sense of what’s currently going on in the lab is to check out our [projects page](/purrlab22.github.io/_pages/projects.md).
+The best way to get a sense of what’s currently going on in the lab is to check out our [projects](purrlab22/purrlab22.github.io/_pages/projects.md) page.
 
 PURRLab is a part of [DASYA](https://dasya.itu.dk/) research group in the department of Computer Science at the IT University of Copenhagen. and is led by Veronika Cheplygina.
 
