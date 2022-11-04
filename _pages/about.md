@@ -21,13 +21,13 @@ social: true  # includes social icons at the bottom of the page
 
 PURRLab research interests lie within the broad area of trustworthy machine learning and its applications to medical imaging with a focus on datasets.  We are particularly interested in ……
 
-The best way to get a sense of what’s currently going on in the lab is to check out our [projects page](/purrlab22.github.io/projects/).
+The best way to get a sense of what’s currently going on in the lab is to check out our [projects page](/purrlab22.github.io/_pages/projects/).
 
 PURRLab is a part of the Department of Computer Science at the IT University of Copenhagen and is led by Veronika Cheplygina.
 
 PURRLab research is being supported by Novo Nordisk Fonden and Danmarks Frie Forskningsfonds.
 
-###### **Lab Culture**
+##### Lab Culture
 
 
 
