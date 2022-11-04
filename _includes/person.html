@@ -8,6 +8,11 @@
   <div class="">
         <p>
           <img src={{person.img}}>
+          
+        {%- include figure.html
+          path=person.img
+          alt="person thumbnail" -%}
+          
           <strong>{{ person.name }}</strong><br>
           <em>{{ person.position }}</em><br>
           {{ person.email }}<br>
