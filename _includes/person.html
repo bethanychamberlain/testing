@@ -7,10 +7,11 @@
   {% endif %}
   <div class="">
         <p>
-          <img src={{person.img}} style="width:150px">
+          
           
         {%- include figure.html
           path=person.img
+          max-width=150px
           alt="person thumbnail" -%}
           
           <strong>{{ person.name }}</strong><br>
